@@ -21,13 +21,13 @@ class Nostromo < Formula
   # Run `poet nostromo-cli` to auto-generate full dependency list
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/source/t/textual/textual-0.89.1.tar.gz"
-    sha256 "28753d816c27ed0e90b0e3c8b0dcb16cba87957a3e9b9c5b3e4e7f3e2dba3e0e"
+    url "https://files.pythonhosted.org/packages/source/t/textual/textual-6.11.0.tar.gz"
+    sha256 "08237ebda0cfbbfd1a4e2fd3039882b35894a73994f6f0fcc12c5b0d78acf3cc"
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/source/r/rich/rich-13.9.4.tar.gz"
-    sha256 "439594978a49a09530cff7ebc4b5c7103ef57c5a47e2c73c59e7e5d4c5f9b2e0"
+    url "https://files.pythonhosted.org/packages/source/r/rich/rich-14.2.0.tar.gz"
+    sha256 "73ff50c7c0c1c77c8243079283f4edb376f0f6442433aecb8ce7e6d0b92d1fe4"
   end
 
   resource "click" do
@@ -36,8 +36,8 @@ class Nostromo < Formula
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/source/p/pydantic/pydantic-2.10.3.tar.gz"
-    sha256 "cb5ac360ce894ceacd69c403187900a02c4b20b693a701f73f27c2a7e6e5b39e"
+    url "https://files.pythonhosted.org/packages/source/p/pydantic/pydantic-2.12.5.tar.gz"
+    sha256 "4d351024c75c0f085a9febbb665ce8c0c6ec5d30e903bdb6394b7ede26aebb49"
   end
 
   resource "httpx" do
@@ -46,8 +46,8 @@ class Nostromo < Formula
   end
 
   resource "keyring" do
-    url "https://files.pythonhosted.org/packages/source/k/keyring/keyring-25.5.0.tar.gz"
-    sha256 "4c753b3ec91717fe713c4edd522a625889d8973a349b0e582622f49766de58e6"
+    url "https://files.pythonhosted.org/packages/source/k/keyring/keyring-25.7.0.tar.gz"
+    sha256 "fe01bd85eb3f8fb3dd0405defdeac9a5b4f6f0439edbb3149577f244a2e8245b"
   end
 
   def install
